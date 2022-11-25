@@ -1,0 +1,16 @@
+.colours {
+   background-color: rgb(147, 225, 241);
+}
+.yellow {
+    color: yellow; /*Keyword*/
+}
+.blue {
+    color : rgb(12, 40, 222); /*RGB*/
+}
+.green {
+    color: #0bdc16  /*HEX*/
+}
+.orange {
+    color: hsl(24, 76%, 61%); /*HSL*/
+}
+
