@@ -1,4 +1,6 @@
-# Front End Development - Brainnest Training Program
+# Front End Development - Brainnest Training Program 
+
+## Week 2 - CSS Project
 
 ## What benefits will you gain?
 
