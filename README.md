@@ -2,6 +2,8 @@
 
 ## Week 2 - CSS Project
 
+
+
 ## What benefits will you gain?
 
 ### Participants will receive the best possible practical training with the prospects of a job. This is the purpose of the whole program. Some of the benefits you will gain from this practicum program are listed below:
