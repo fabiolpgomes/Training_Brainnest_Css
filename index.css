@@ -107,16 +107,15 @@ h2 {
   color: #1f2937;
 }
 
-.row{
+.box-container{
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 0;
-  /*border: 1px solid red;*/
 }
 
-.card1 {
+.box-info {
   position: relative;
   flex: 1;
   justify-content: space-evenly;
@@ -128,7 +127,7 @@ h2 {
   border: 2px solid rgb(50, 178, 247);
  }
 
-.card2{
+.box-text{
   position: relative;
   flex: 1;
   justify-content: space-evenly;
@@ -136,7 +135,7 @@ h2 {
   height: 110px;
   margin: 50px;
   margin-top: 1px;
-
+  text-align: center;
   margin-bottom: 5px;
   border-radius: 5px;
 }
