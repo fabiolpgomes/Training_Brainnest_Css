@@ -2,8 +2,9 @@
 
 ## Week 2 - CSS Project
 ![homeviewtop](https://user-images.githubusercontent.com/99607827/204082091-e0296dad-46e5-427a-8146-0e77e5380e57.png)
-
 ![homeviewbottom](https://user-images.githubusercontent.com/99607827/204082108-328dc402-2a8d-4cb0-a5a2-c0e848f6d8a6.png)
+
+### According to the Main assignment of the CSS project. 
 
 ## What benefits will you gain?
 
@@ -28,10 +29,10 @@
 
 ## Built With
 
-<code><img align="center" alt="Ane-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+<code>
   <img align="center" alt="Ane-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Ane-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  </code>
+</code>
 
 
 
