@@ -1,6 +1,10 @@
 # Front End Development - Brainnest Training Program 
 
 ## Week 2 - CSS Project
+![homeviewtop](https://user-images.githubusercontent.com/99607827/204082091-e0296dad-46e5-427a-8146-0e77e5380e57.png)
+
+
+![homeviewbottom](https://user-images.githubusercontent.com/99607827/204082108-328dc402-2a8d-4cb0-a5a2-c0e848f6d8a6.png)
 
 ## What benefits will you gain?
 
