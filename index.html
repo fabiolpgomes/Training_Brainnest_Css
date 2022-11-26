@@ -5,89 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Assignments</title>
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Main CSS Project</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <nav>
-        <ul class="nav-bar-ul">
-            <li class="nav-bar-li">
-                <a href="#" class="header-logo-text"> Header Logo </a>
-            </li>
-            <li class="nav-bar-li">
-                <a href="#" class="header-link-text"> header link one </a>
-            </li>
-            <li class="nav-bar-li">
-                <a href="#" class="header-link-text"> header link two </a>
-            </li>
-            <li class="nav-bar-li">
-                <a href="#" class="header-link-text"> header link three </a>
-            </li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="header-logo">
+                <a href="#">Header Logo</a>
+            </div>
+            <div class="nav-link">
+                <a href="">header link one</a>
+                <a href="">header link two</a>
+                <a href="">header link three</a>
+            </div>
+        </nav>
 
-    <section class="container">
-        <div class="hero-main">
-            <article class="hero-main-text">
-                <p>This website is awesome</p>
-                <p class="hero-secondary-text">
-                    This website has some subtext that goes here under the main title.
-                    It´s a smaller font and the collor is lower contrast.
+        <div class="main-header">
+            <div class="header-text">
+                <h1>This website is awesome</h1>
+                <p>
+                    This website has some subtext under the main title.
+                    It`s a smaller font and the color is lower contrast
                 </p>
-            </article>
-            <a href='#' class="link-btn">Sign up</a>
-            <article>
-            </article>
-            <p class="hero-placeholder">this is a placeholder for an image</p>
+                <button type="button">Sign up</button>
+            </div>
+            <div class="header-image">
+                <p>this is a placeholder for an image</p>
+            </div>
         </div>
-    </section>
+    </header>
 
-    <section>
-        <div class="info">Some random information.</div>
-        <div class="container">
-            <div class="row">
-                <div class="card1"></div>
-                <div class="card1"></div>
-                <div class="card1"></div>
-                <div class="card1"></div>
+    <main>
+        <h2>Some random information.</h2>
+        <div class="row">
+            <div class="card1"></div>
+            <div class="card1"></div>
+            <div class="card1"></div>    
+            <div class="card1"></div>
+        </div>
+        <div class="row">
+            <div class="card2">
+                <p>this is some subtext under an illustration or image</p>
             </div>
-            <div class="row">
-                <div class="card-text">this is some subtext under an ilustrastion or image </div>
-                <div class="card-text">this is some subtext under an ilustrastion or image </div>
-                <div class="card-text">this is some subtext under an ilustrastion or image </div>
-                <div class="card-text">this is some subtext under an ilustrastion or image </div>
+            <div class="card2">
+                <p>this is some subtext under an illustration or image</p>
             </div>
+            <div class="card2">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card2">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
 
-            <section>
-                <div class="section-quote">
-                    <h2>
-                        This is an inspiring quote, or a testimonial from a
-                        customer. Maybe it´s just filling up space, or Maybe
-                        people will actually read it. Who Knows? All I Knows
-                        is that it looks nice.
-                        <b>-Thor</b>
-                    </h2>
-                </div>
-            </section>
+        <div class="quote-section">
+            <div class="quote-text">
+                <p id="quote-text">
+                    This is an inspiring quote, or a testimonial from a customer.
+                    Maybe it`s just filling up space, or maybe people will actually read it.
+                    Who knows? All I know is that it looks nice.
+                </p>
+                <span>-Thor</span>
+            </div>
+        </div>
 
-            <section>
-                <div class="section-call-to-action">
-                    <h3>Call to action! It´s time!</h3>
-                    <p>Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <div class="sign" id="sign">
-                    <bottom class="sign-up" id="sign-up">Sign up</bottom>
-                </div>
-            </section>
+        <div class="sign-up-div">
+            <div class="sign-up-text">
+                <h3>Call to action! It´s time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="sign-up-button">
+                <button type="button">Sign up</button>
+            </div>
+        </div>
+    </main>
 
-            <footer>
-                <div>
-                    <span>Copyright &copy;</span>
-                </div>
-
-                
-            </footer>
+    <footer>
+        <p>Copyright &copy;</p>
+    </footer>
 
 </body>
 

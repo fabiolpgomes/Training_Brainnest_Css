@@ -1,122 +1,318 @@
 @font-face {
   font-family: "Roboto";
-  src: url(fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+  src: url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
   font-weight: normal;
 }
 
 * {
-  font-family: "Roboto";
+  font-family: "roboto";
+  font-size: 18px;
 }
 
-
-nav,
-.container {
-  background: #1f2937;
-  width: 100%;
+header {
+  background-color: #1f2937;
   display: flex;
-  
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 30px;
 }
 
-.header-logo-text {
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.header-logo a {
+  font-size: 24px;
   color: #f9faf8;
   text-decoration: none;
-  font-size: 24px;
 }
 
-.nav-bar-ul {
-  width: 100%;
-  margin: 0 auto;
+.nav-link,
+a {
+  gap: 20px;
+  color: #f9faf8;
+  text-decoration: none;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.nav-bar-li {
-  list-style-type: none;
-  text-align: center;
-  float: left;
-}
-
-
-.hero-main {
-  height: 300px;
-  width: 200px;
+.main-header {
   display: flex;
-  align-content: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
-.hero-main-text {
+.header-text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.header-text p,
+.header-image p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h1 {
   color: #f9faf8;
   font-size: 48px;
-  font-weight: bold;
-  margin-left: 100px;
+  font-weight: 900;
+}
+
+.header-image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  background-image: url("./resources/header-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-image {
+  background: grey;
   text-align: center;
-  background-color: red;
+  height: 230px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+button {
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  width: fit-content;
+  padding: 2% 7%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  /*border: 1px solid red;*/
+}
+
+.card1 {
+  position: relative;
+  flex: 1;
+  justify-content: space-evenly;
+  max-width: 130px;
+  height: 113px;
+  margin: 50px;
+  margin-bottom: 0;
+  border-radius: 5px;
+  border: 2px solid rgb(50, 178, 247);
  
 }
 
-.hero-placeholder{
-  font-size: small;
-  font-weight: normal;
-  background-color: grey;
-  text-align: center;
-  
-}
-.header-link-text,
-.hero-secondary-text,
-.link-btn {
-  color: #e5e7eb;
-  font-size: 18px;
-  text-decoration: none;
-}
+.card2{
+  position: relative;
+  flex: 1;
+  justify-content: space-evenly;
+  max-width: 130px;
+  height: 110px;
+  margin: 50px;
+  margin-top: 1px;
 
-
-.link-btn {
-  background-color: #3882f6;
+  margin-bottom: 5px;
   border-radius: 5px;
-  padding: 5px 20px;
-  letter-spacing: 0.5px;
-  text-align: center;
-  text-decoration: none;
 }
 
-.info{
+.card p {
   text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-  border: 1px solid red;
-   
 }
 
-.section-quote{
+.quote-section {
+  width: 100%;
+  height: 400px;
   background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.quote-text p {
   font-size: 36px;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 300;
   color: #1f2937;
-  
+  margin: 0;
 }
 
-
-
-
-.hero-placeholder {
-  border: 1px solid red;
-  height: 150px;
-  width: 300px;
-}
-.hero-image {
-  height: 150px;
-  width: 300px;
-  background-color: grey;
+.quote-text {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
+.quote-section span {
+  font-size: 20px;
+  font-weight: 800;
+}
 
-footer{
-  color:#e5e7eb
+.sign-up-div {
+  width: 75%;
+  background-color: #3882f6;
+  margin: 70px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+}
+
+.sign-up-text {
+  color: #e5e7eb;
+  padding: 30px;
+}
+
+.sign-up-text h3 {
+  margin-bottom: 0;
+}
+
+.sign-up-text p {
+  margin-top: 0;
+}
+
+.sign-up-button {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-button button {
+  border: 1px solid white;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 920px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-buttons {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .main-header {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .header-text {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .header-text p,
+  .header-image p {
+    font-size: 16px;
+  }
+
+  .header-image {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .main-cards {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 45%;
+    height: 250px;
+    margin: 20px 0;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .quote-section {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .quote-text {
+    width: 80%;
+    padding: 40px 0;
+  }
+
+  .quote-text p {
+    font-size: 26px;
+  }
+
+  .sign-up-div {
+    width: 90%;
+    margin: 30px auto;
+    flex-direction: column;
+  }
+
+  .sign-up-text {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .sign-up-button {
+    padding-bottom: 18px;
+  }
+
+  footer {
+    height: 40px;
+    font-size: 14px;
+  }
 }
