@@ -64,6 +64,25 @@ a {
   font-weight: 900;
 }
 
+.main-text{
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  padding-top: 10px;
+}
+
+
+.text-main1, .text-main2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: white;
+}
+
+.text-main2{
+color: #fca311;
+}
+
 .brainnest {
   color:#fca311
 }
@@ -72,7 +91,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
- 
 }
 
 button {
@@ -90,26 +108,19 @@ button:hover {
   cursor: pointer;
 }
 
-h2 {
-  text-align: center;
-  font-size: 36px;
-  font-weight: bolder;
-  color: #1f2937;
-}
-
 .box-container {
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 0;
   gap: 20px;
+  background-color: #14213D;
 }
 
 .box-info {
   display: flex;
   flex: 1;
-  height: 517px;
+  height: 450px;
+  width: auto !important;
   font-size: small;
   flex-direction: column;
   align-content: stretch;
@@ -131,9 +142,9 @@ h3 {
   margin-top: 1px;
   text-align: center;
   margin-left: 10px;
-  margin-bottom: 5px;
+  margin-right: 10px;
   border-radius: 5px;
-  background: #e5e7eb;
+  background: white;
 }
 
 .card p {
@@ -150,11 +161,8 @@ h3 {
 }
 
 .quote-text p {
-  font-size: 36px;
+  font-size: 28px;
   font-style: italic;
-  font-weight: 300;
-  color: #1f2937;
-  margin: 0;
 }
 
 .quote-text {
