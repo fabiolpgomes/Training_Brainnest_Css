@@ -15,20 +15,13 @@ header {
   flex-direction: column;
   padding-left: 10%;
   padding-right: 10%;
-  margin-bottom: 30px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0;
-}
-
-.header-logo a {
-  font-size: 24px;
-  color: #f9faf8;
-  text-decoration: none;
+  margin: 10px;
 }
 
 .nav-link,
@@ -40,25 +33,24 @@ a {
   justify-content: flex-end;
 }
 
+.nav-link-home {
+  color:#fca311;
+}
+
 .main-header {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin: 70px 0 70px 0;
+  gap: 60px;
 }
 
 .header-text {
   display: flex;
   flex-direction: column;
   flex: 1;
-}
-
-.header-text p,
-.header-image p {
   font-size: 18px;
   color: #e5e7eb;
 }
-
 
 .text-left1 {
   color: #fca311;
@@ -72,11 +64,15 @@ a {
   font-weight: 900;
 }
 
+.brainnest {
+  color:#fca311
+}
+
 .header-image {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 70px;
+ 
 }
 
 button {
