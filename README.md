@@ -1,8 +1,10 @@
 # Front End Development - Brainnest Training Program 
 
 ## Week 2 - CSS Project
-![homeviewtop](https://user-images.githubusercontent.com/99607827/204082091-e0296dad-46e5-427a-8146-0e77e5380e57.png)
-![homeviewbottom](https://user-images.githubusercontent.com/99607827/204082108-328dc402-2a8d-4cb0-a5a2-c0e848f6d8a6.png)
+
+![homeviewtop](https://user-images.githubusercontent.com/99607827/204156928-8e021bb4-2498-4bc6-a0ee-60544eff31e6.png)
+![homeviewbottom](https://user-images.githubusercontent.com/99607827/204156949-efb39ed7-8f35-4370-a837-8da910d6dfa5.png)
+
 
 ### According to the Main assignment of the CSS project. 
 
