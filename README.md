@@ -3,8 +3,7 @@
 ## Week 2 - Css Project
 
 ### According to the Main assignment of the Javascript. 
-Create a simple Program to build the Calculator in JavaScript using with HTML and CSS web language.
-In this Calculator, we can perform basic operations like addition, multiplication, subtraction, and division.
+Create a page following the instructions and template suggested in the exercise as described using HTML and Css language. 
 
 ![homeviewtop](https://user-images.githubusercontent.com/99607827/204156928-8e021bb4-2498-4bc6-a0ee-60544eff31e6.png)
 ![homeviewbottom](https://user-images.githubusercontent.com/99607827/204156949-efb39ed7-8f35-4370-a837-8da910d6dfa5.png)
@@ -30,6 +29,7 @@ f) There are many ways to tackle a project like this, and it can be overwhelming
 ### Adittional instructions;
 
 Model
+
 ![overview model](https://user-images.githubusercontent.com/99607827/206861562-144e1bdf-c703-47bc-b479-c6db747322d1.png)
 
 Font and Colors
