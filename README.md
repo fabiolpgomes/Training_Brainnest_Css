@@ -1,33 +1,40 @@
 # Front End Development - Brainnest Training Program 
 
-## Week 2 - CSS Project
+## Week 2 - Css Project
+
+### According to the Main assignment of the Javascript. 
+Create a simple Program to build the Calculator in JavaScript using with HTML and CSS web language.
+In this Calculator, we can perform basic operations like addition, multiplication, subtraction, and division.
 
 ![homeviewtop](https://user-images.githubusercontent.com/99607827/204156928-8e021bb4-2498-4bc6-a0ee-60544eff31e6.png)
 ![homeviewbottom](https://user-images.githubusercontent.com/99607827/204156949-efb39ed7-8f35-4370-a837-8da910d6dfa5.png)
 
-
-### According to the Main assignment of the CSS project. 
-
+## <a href="https://fabiolpgomes.github.io/Training_Brainnest_Css/" target="_blank">Main CSS Project</a>
 
 
-## What benefits will you gain?
+### 4. Assignment (Main CSS Project): According to the Main assignment of the CSS project;
 
-### Participants will receive the best possible practical training with the prospects of a job. This is the purpose of the whole program. Some of the benefits you will gain from this practicum program are listed below:
+a) Download the ‘Roboto’ font from here
 
-* Priority to be selected for a full-time, part-time, or contractor osition at Brainnest or the companies we work with (90% of our recruitments are internal);
-* Business certificate from Brainnest – German consulting company;
-* Reference/recommendation letter from your training tutor;
-* Working on business cases based on current or past Brainnest projects;
-* Lectures given by experienced industry professionals;
-* Close supervision and orientation from your mentor;
-* Working an average of one to two hours per day with a flexible schedule;
-* Fully remote positions with access to online tools and platforms;
-* Unlocking your potentials and getting prepared to be hired right away;
-* Professional business training, guidance, and experience;
-* Having your work criticized,assessed, and corrected;
-* Professional projects experience to put on your CV.
+b) Check out here on how to use that font you just downloaded
 
-#### The training program consists of four weeks.
+c) Have a look at the two images below (3rd/4th) page of this document). One is the design that you will try to copy, it should look as similar as possible. The second one shows some information like colors and font-weights you should use in texts.
+
+d) Do not worry about this being responsive on mobile devices or not, that is not the goal here
+
+e) For the section you’re working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and then do the CSS. You’ll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will take more time and may cause more frustration.
+
+f) There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you’re creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
+
+
+### Adittional instructions;
+
+Model
+![overview model](https://user-images.githubusercontent.com/99607827/206861562-144e1bdf-c703-47bc-b479-c6db747322d1.png)
+
+Font and Colors
+
+![instructions font and colors](https://user-images.githubusercontent.com/99607827/206861584-3e3ab5a2-771e-4076-94e7-f1528dcfc2a1.png)
 
 #### Repository created to run the proposed exercises
 
